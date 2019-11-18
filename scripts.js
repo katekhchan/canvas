@@ -48,7 +48,7 @@ barba.init({
 
                     })
 
-                timeline.to ("header", {y = "-100%"})
+                timeline.to("header", {y: "-100%"})
             })
 
             },
@@ -58,11 +58,11 @@ barba.init({
                 const timeline = gsap.timeline({
                     onComplete () {
                         runScripts()
-                        resolve ()
+                        resolve()
                     }
                 })
 
-                timeline.to ("header", {y = "0%"})
+                timeline.to("header", {y: "0%"})
 
             })
             }
